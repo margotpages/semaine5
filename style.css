@@ -1,0 +1,89 @@
+header, main, footer 
+{
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+}
+
+.conteneur
+{
+    width : 100%;
+    max-width: 960px;
+    padding: 10px;
+    margin: 15px;
+}
+
+
+/* -- Mise en forme du header -- */
+
+header 
+{
+    background: url('agsquare/agsquare.png');
+}
+
+#photo_cv
+{
+    width:130px;
+    height:130px;
+    display: inline-block;
+    text-align:left;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+
+#presentation_mp
+{
+    display: inline-block;
+    text-align: right;
+}
+
+
+
+/* -- Mise en forme du main --  */
+main 
+{
+    background: url('halftone/halftone.png');
+
+}
+
+.main_col
+{
+    border:solid;
+    padding: 10px;
+    vertical-align:top;
+    height:300px;
+}
+
+#experience, #education, #skills
+{
+    display: inline-block;
+}
+
+main h2
+{
+    font-size: 18px;
+}
+
+main h3
+{
+    font-size: 12px;
+}
+/* -- Mise en forme du footer -- */
+
+footer
+{
+    background: url('triangular/triangular.png');
+}
+
+#map-google, #contact-info
+{
+    display: inline-block;
+}
+
+ #contact-info
+ {
+     vertical-align: center;
+     margin: 30px;
+ }
